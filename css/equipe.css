@@ -1,0 +1,92 @@
+/* Container principal da area equipe com layout em Grid */
+.equipe {
+    display: grid;
+    grid-template-areas:
+    'h1 h1' 
+    'diretoria coordenação'
+    'comunicação educação'
+    'voluntarios voluntarios'
+    'inf inf'
+    'duração duração'
+    ;
+    gap: var(--fonte);
+    padding: 0 var(--fonte);
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+/* Título da seção, posicionado na área 'h1' */
+.titulo{
+    grid-area: h1;
+}
+
+/* Bloco da diretoria, com layout em coluna e texto pequeno */
+.diretoria {
+    grid-area: diretoria;
+    display: flex;
+    flex-direction: column;
+    gap: var(--espaço-pequeno-medio);
+    font-size: var(--fonte-pequena);    
+    margin: 0 auto;
+}
+
+/* Bloco da coordenação */
+.coordenação {
+    grid-area: coordenação;
+    display: flex;
+    flex-direction: column;
+    gap: var(--espaço-pequeno-medio);
+    font-size: var(--fonte-pequena);    
+    margin: 0 auto;
+}
+
+/* Bloco da comunicação */
+.comunicação {
+    grid-area: comunicação;
+    display: flex;
+    flex-direction: column;
+    gap: var(--espaço-pequeno-medio);
+    font-size: var(--fonte-pequena);    
+    margin: 0 auto;
+}
+
+/* Bloco da educação */
+.educação {
+    grid-area: educação;
+    display: flex;
+    flex-direction: column;
+    gap: var(--espaço-pequeno-medio);
+    font-size: var(--fonte-pequena);    
+    margin: 0 auto;
+}
+
+/* Bloco de voluntários, ocupando linha inteira */
+.voluntarios {
+    grid-area: voluntarios;
+    display: flex;
+    flex-direction: column;
+    gap: var(--espaço-pequeno-medio);
+    font-size: var(--fonte-pequena);    
+}
+
+/* Bloco da duração, com elementos lado a lado (em linha) */
+.duração {
+    grid-area: duração;
+    display: flex;
+    flex-direction: row;
+    gap: var(--espaço-pequeno-medio);
+    font-size: var(--fonte-pequena);    
+}
+
+/* Bloco de informações adicionais */
+.inf {
+    grid-area: inf;
+    display: flex;
+    flex-direction: column;
+    gap: var(--fonte-pequeno);
+}
+
+/* Estilo geral para títulos de nível 4 */
+h4{
+    font-size: var(--fonte-letras);
+}

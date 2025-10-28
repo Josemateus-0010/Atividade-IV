@@ -1,0 +1,240 @@
+<!-- Define o documento como HTML5 -->
+<!DOCTYPE html>
+
+<!-- Define idioma e direção de leitura -->
+<html lang="pt-br" dir="ltr">
+<head>
+
+    <!-- Meta tag de acessibilidade -->
+    <meta name="accessibility" content="WCAG 2.1 AA compliant">
+
+    <!-- Define o conjunto de caracteres como UTF-8 (suporta acentos) -->
+    <meta charset="UTF-8">
+
+    <!-- Responsividade em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importa arquivo CSS externo -->
+    <link rel="stylesheet" href="./css/padrao.css">
+    <link rel="stylesheet" href="./css/pestação.css">
+    <link rel="stylesheet" href="./css/imagens.css">
+
+    <!-- Título da aba do navegador -->
+    <title>Contas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+
+     <!-- Cabeçalho do site -->
+    <header>
+        <span class="material-symbols-outlined" onclick="clickMenu()"> menu </span>
+
+        <!-- logo do cabeçalho -->
+        <img src="./imagens/WhatsApp-Image-2025-10-08-at-14.25.42.jpeg" class="imagem" alt="erro ao abrir imagem" loading="lazy">
+        <img src="./imagens/WhatsApp-Image-2025-10-08-at-14.25.42.jpeg" class="imagem2" alt="erro ao abrir imagem" loading="lazy">        
+        
+        <!-- Menu de navegação -->
+        <nav id="itens">
+            <ul>
+                <li class="dropdown">
+                    <a href="">Menu</a>
+
+                    <div class="drop-menu">
+                        <a href="index.html">Inicio</a>
+                        <a href="projetos.html">Projetos</a>
+                        <a href="cadastro.html">Cadastro</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="subtitulos">
+
+         <!-- Título principal da página -->
+        <h1>Prestação de contas</h1>
+
+        <!-- Seção de receitas -->
+        <section class="tabela">
+            <h2>Entradas (receitas)</h2>
+
+            <!-- Tabela com as receitas da ONG -->
+            <table border="1">
+                <thead>
+                    <tr>
+
+                         <!-- Cabeçalhos das colunas da tabela -->
+                        <th><strong>Fonte de receita</strong></th>
+                        <th><strong>Valor (R$)</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                     <!-- Linhas com dados de receitas -->
+                    <tr>
+                        <td>Doações individuais</td>
+                        <td>13.500,00</td>
+                    </tr>
+                    <tr>
+                        <td>Parcerias com empresas</td>
+                        <td>3.000,00</td>
+                    </tr>
+                    <tr>
+                        <td>Feiras e eventos</td>
+                        <td>1.250,00</td>
+                    </tr>
+                    <tr>
+                        <td>Venda de produtos (camisetas, rifas)</td>
+                        <td>2.500,00</td>
+                    </tr>
+                    <tr>
+                        <td>Apoio institucional (editais, subvenções)</td>
+                        <td>4.000,00</td>
+                    </tr>
+
+                    <!-- Linha de totalização -->
+                    <tr>
+                        <td><strong>Total recebido</strong></td>
+                        <td><strong>R$ 24.250,00</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+         <!-- Seção de despesas -->
+        <section class="tabela2">
+            <h2>Saídas (Despesas)</h2>
+
+            <!-- Tabela com as despesas da ONG -->
+            <table border="1" class="op">
+                <thead>
+                    <tr>
+
+                        <!-- Cabeçalhos das colunas da tabela -->
+                        <th class="op1"><strong>Tipo de despesa</strong></th>
+                        <th class="op2"><strong>Valor (R$)</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Linhas com dados de despesas -->
+                    <tr>
+                        <td>Atendimento veterinário</td>
+                        <td>10.700,00</td>
+                    </tr>
+                    <tr>
+                        <td>Compra de ração e medicamentos</td>
+                        <td>4.300,00</td>
+                    </tr>
+                    <tr>
+                        <td>Castrações</td>
+                        <td>3.500,00</td>
+                    </tr>
+                    <tr>
+                        <td>Transporte e logística</td>
+                        <td>1.100,00</td>
+                    </tr>
+                    <tr>
+                        <td>Comunicação e redes sociais</td>
+                        <td>800,00</td>
+                    </tr>
+                    <tr>
+                        <td>Material gráfico e educativo</td>
+                        <td>850,00</td>
+                    </tr>
+                    <tr>
+                        <td>Custos administrativos</td>
+                        <td>1.300,00</td>
+                    </tr>
+
+                    <!-- Linha de totalização -->
+                    <tr>
+                        <td><strong>Total gasto</strong></td>
+                        <td>R$ 22.550,00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Saldo final do período -->
+            <p><strong>Saldo do período:</strong>R$ 1.700,00 (reinvestido nas ações contínuas da ONG)</p>
+        </section>
+
+        <!-- Seção com as atividades realizadas pela ONG -->
+        <section class="tabela3">
+            <h2>Atividades Realizadas</h2>
+
+            <!-- Tabela com ações e seus resultados -->
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th><strong>Ação realizada</strong></th>
+                        <th><strong>Quantidade / Resultados</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Animais resgatados</td>
+                        <td>1.300</td>
+                    </tr>
+                    <tr>
+                        <td>Animais encaminhados para adoção</td>
+                        <td>900</td>
+                    </tr>
+                    <tr>
+                        <td>Castrações realizadas</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <td>Ações educativas em escolas</td>
+                        <td>5 escolas atendidas</td>
+                    </tr>
+                    <tr>
+                        <td>Campanhas nas redes sociais</td>
+                        <td>8 campanhas de conscientização</td>
+                    </tr>
+                    <tr>
+                        <td>Eventos e feiras de adoção</td>
+                        <td>6 eventos realizados</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!--area para configurar o menu hamburguer-->
+    <script>
+        function clickMenu() {
+            const itens = document.getElementById('itens');
+            if (getComputedStyle(itens).display == 'block') {
+                itens.style.display = 'none';
+            } else {
+                itens.style.display = 'block';
+            }
+        }
+    </script>   
+
+    <!-- Rodapé -->
+    <footer>
+
+        <!-- Logo -->
+        <img src="./imagens/Sem-título.png" class="imagem5" alt="erro ao carregar a foto" loading="lazy">   
+        
+        <!-- Links para outras páginas -->
+    <div class="rodape">
+        <p>Prestação de Contas Financeiras: <a href="prestação.html">Clique aqui!</a></p>
+        <p>Conheça nossa equipe: <a href="equipe.html">Clique aqui!</a></p>
+
+        <!-- Contato e redes sociais -->
+        <p> Entre em contato <br>
+            <a href="mailto:contato@coracaoanimal.org.br">contato @coracaoanimal.org.br</a> <br>
+            Nossas Redes Sociais <br>
+            <a href="https://instagram.com/coracaoanimalong" target="_blank">instagram.com/coracaoanimalong</a> <br>
+            <a href="https://facebook.com/coracaoanimalong" target="_blank">facebook.com/Coracaoanimalong</a> <br>
+            <a href="https://youtube.com/coracaoanimalong" target="_blank">youtube.com/coracaoanimalong</a>
+        </p>
+    </div>
+
+        <!-- Direitos autorais -->
+        <h3 class="direitos"> &COPY; <strong> 2024 ONG Coração Animal - Afogados da Ingazeira/PE </strong> </h3>
+    </footer>
+</body>
+</html>

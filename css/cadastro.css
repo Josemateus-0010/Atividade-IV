@@ -1,0 +1,80 @@
+/* Estilo geral para a área principal da página */
+main{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+/* Estilo para campos de texto e data */
+.pagina input[type="text"], input[type="date"] {
+    width: 30%;
+    padding: 0.3rem;
+    border: var(--espaço-pequeno) solid var(--cor-secundaria);
+    outline: none;
+    border-radius: var(--espaço);
+    background-color: transparent;
+    margin: 0.3rem;
+}
+
+/* Estilo para tabelas */
+.pagina table{
+   margin: 2rem 8rem;
+   width: 80%;
+   border-collapse: collapse;
+
+}
+
+/* Estilo para células de cabeçalho da tabela */
+th{
+   background-color: var(--cor-bordas);
+   padding: 0.5rem;
+}
+
+/* Estilo para células de conteúdo da tabela */
+td{
+   padding: 0.5rem;
+   text-align: center;
+}
+
+/* Estilo para subtítulos (h2) dentro da seção com classe .subtitulos */
+.subtitulos h2 {
+   margin: 0 8rem;
+}
+
+/* Estilo para parágrafos dentro da seção .subtitulos */
+.subtitulos p {
+   margin: 0 8rem;
+   font-size: var(--fonte-pequena);
+}
+
+/* Estilo para o contêiner fieldset (normalmente usado em formulários) */
+fieldset {
+   margin: 1rem 2rem;
+   border-radius: var(--espaço);
+   padding: var(--fonte-pequeno);
+}
+
+/* Estilo para legendas dentro de fieldset */
+legend {
+   padding: 0 var(--espaço);
+   font-size: var(--fonte-letras);
+}
+
+/* Estilo para títulos h2 dentro da seção .titulos */
+.titulos h2 {
+   margin: 0 2rem;
+}
+
+/* Estilo para listas não ordenadas dentro da seção .titulos */
+.titulos ul{
+   margin: 0 var(--fonte-altura);
+}
+
+/* Estilo para botões */
+button {
+    background-color: var(--cor-bordas);
+    border: none;
+    padding: 0.5rem;
+    border-radius: var(--espaço);
+    cursor: pointer;
+    margin: 0 2rem;
+}

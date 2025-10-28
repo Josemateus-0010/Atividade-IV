@@ -1,0 +1,217 @@
+/* Reset básico: zera margens e paddings de todos os elementos, e define box-sizing */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definição de variáveis globais de cores */
+:root {
+    --cor-primaria: antiquewhite;
+    --cor-secundaria: rgb(131, 62, 37);
+    --cor-terciaria: rgb(239, 129, 44);
+    --cor-links: wheat;
+    --cor-bordas: rgb(233, 180, 83);
+    --cor-outros-links: blue;
+    --cor-quarta: rgb(68, 34, 10);
+}
+
+/* Variáveis de tamanho de fontes */
+:root {
+    --fonte-pequeno: 1rem;
+    --fonte: 2rem;
+    --fonte-letras: 1.5rem;
+    --fonte-pequena:1.2rem;
+    --fonte-altura: 3rem;
+}
+
+/* Variáveis de espaçamento */
+:root {
+    --espaço-medio:24px;
+    --espaço: 16px;
+    --espaço-pequeno:2px;
+    --espaço-pequeno-medio:5px;
+}
+
+/* Estilo para todos os h3 - define cor */
+h3{
+    color: var(--cor-quarta);
+}
+
+/* Cabeçalho com layout em grid de 3 colunas */
+header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    background-color: var(--cor-terciaria);
+    padding: var(--fonte-pequeno) var(--fonte);
+    min-height: auto;
+}
+
+/* Navegação centralizada no header */
+nav {
+    grid-column: 2;
+    margin: auto;
+    min-width: var(--espaço-medio);
+    max-width: auto;
+}
+
+/* Centraliza os itens da lista da navegação */
+nav li {
+    text-align: center;
+
+}
+
+/* Estilo dos links de navegação */
+nav li a {
+    grid-column: 2;
+    margin: auto;
+    font-size: var(--fonte-letras);
+    color: var(--cor-links);
+    min-width: var(--espaço-medio);
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Hover dos links do menu para mudar quando passar o mouse encima */
+nav li a:hover {
+    background-color: var( --cor-bordas) ;
+}
+
+/* Menu dropdown oculto por padrão */
+.drop-menu {
+    position: absolute;
+    display: none;
+}
+
+/* Estilo dos links dentro do dropdown */
+.drop-menu a {
+    display: block;
+    text-align: left;
+    color:var(--cor-quarta);
+}
+
+/* Ao passar o mouse sobre o item dropdown, mostra o menu */
+.dropdown:hover .drop-menu {
+    display: block;
+}
+
+/* Rodapé com layout em grid e áreas nomeadas */
+footer {
+    display: grid;
+    grid-template-areas:  
+    'rodape ft7'
+    'direitos direitos'
+    ;
+    gap: var(--fonte-pequeno);
+    background-color: var(--cor-terciaria);
+    color: var(--cor-links);
+    padding: var(--fonte);
+}
+
+/* Área principal do rodapé */
+.rodape {
+    grid-area: rodape;
+    text-align: center;
+    line-height: 1.4;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/* Seção de direitos autorais */
+.direitos {
+    grid-area: direitos;
+    align-items: center;
+}
+
+/* Estilo geral para todos os links */
+a{
+    color: var(--cor-outros-links);
+}
+
+/* Estilo do título principal */
+h1{
+    display: flex;
+    justify-content: center;
+    padding: var(--fonte-pequeno);
+    border: var(--espaço-pequeno) solid black;
+    margin: var(--fonte-altura) auto;
+}
+
+/* Estilo dos inputs de texto e data */
+input[type="text"], input[type="date"] {
+     width: 100%;
+     max-width: 400px;
+     padding: 0.5rem;
+     border: var(--espaço-pequeno) solid var(--cor-secundaria);
+     outline: none;
+     border-radius: var(--espaço);
+     background-color: transparent;
+     margin: 0.5rem 0;
+}
+
+/* Estilo das tabelas */
+table{
+    margin: var(--fonte) auto;
+    width: 90%;
+    border-collapse: collapse;
+
+}
+
+/* Cabeçalho da tabela */
+th{
+    background-color: var(--cor-bordas);
+    padding: 0.5rem;
+}
+
+/* Células da tabela */
+td{
+    padding: 0.5rem;
+    text-align: center;
+}
+
+/* Margens para títulos e textos em seções específicas */
+.subtitulos h2, .subtitulos p, .titulos h2, .titulos ul {
+    margin: var(--fonte-pequeno) var(--fonte);
+}
+
+/* Fonte menor para parágrafos de subtítulos */
+.subtitulos p {
+    font-size: var(--fonte-pequena);
+}
+
+/* Estilo de fieldsets */
+fieldset {
+    margin: var(--fonte-pequeno) var(--fonte);
+    border-radius: var(--espaço);
+    padding: var(--fonte-pequeno);
+}
+
+/* Estilo para a legenda do fieldset */
+legend {
+    padding: 0 var(--espaço);
+    font-size: var(--fonte-letras);
+}
+
+/* Centraliza legendas de imagens */
+figcaption{
+    text-align: center;
+}
+
+/* Estilização de ícones do Google Material Symbols */
+.material-symbols-outlined {
+    grid-column: 2;
+    color: var(--cor-primaria);
+    font-size: var(--fonte-altura);
+    margin: auto;
+
+
+}
+
+/* Efeito hover nos ícones */
+.material-symbols-outlined:hover {
+    background-color: var(--cor-primaria);
+    color: black;
+    cursor: pointer;
+}

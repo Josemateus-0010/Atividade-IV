@@ -1,0 +1,89 @@
+/* area de configuração de imagens */ 
+.imagem {
+    grid-column: 1;
+    margin: auto;
+    min-width: 4rem;
+    max-width: 10rem;
+    width: 100%;
+    height: auto;
+}
+
+.imagem2 {
+    grid-column: 3;
+    margin: auto;
+    min-width: 4rem;
+    max-width: 10rem;
+    width: 100%;
+    height: auto;
+}
+
+.imagem3 {
+    width: 100%;
+    min-width: 5rem;
+    max-width: 100rem;
+    margin: auto;
+    height: auto;
+    
+}
+
+.imagem4 {
+    margin: auto;
+    min-width: 5rem;
+    max-width: 40rem;
+    width: 100%;
+    height: auto;
+}
+
+.imagem5 {
+    grid-area: ft7;
+    margin: auto;
+    min-width: 5rem;
+    max-width: 20rem;
+    width: 100%;
+    height: auto;
+}
+
+.ft1 {
+    grid-area: ft1;
+    margin: auto;
+    min-width: 5rem;
+    max-width: 30rem;
+    width: 100%;
+    height: auto;
+}
+.ft2 {
+    grid-area: ft2;
+    margin: auto;
+    min-width: 5rem;
+    max-width: 30rem;
+    width: 100%;
+    height: auto;
+}
+
+.ft3 {
+    grid-area: grafico;
+    margin: auto;
+    min-width: 5rem;
+    max-width: 30rem;
+    width: 100%;
+    height: auto;
+}
+
+.foto {
+    width: 100%;
+    min-width: 5rem;
+    max-width: 100rem;
+    margin: auto;
+    height: auto;
+    padding: var(--fonte);
+}
+
+.foto2{
+    grid-area: img1;
+    width: 100%;
+    min-width: 5rem;
+    max-width: 40rem;
+    margin: auto;
+    height: auto;
+    padding: var(--fonte);
+}

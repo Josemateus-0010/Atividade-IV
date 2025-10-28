@@ -1,0 +1,17 @@
+/* Container com classe "subtitulos" usa Grid com uma coluna e centraliza o texto */
+.subtitulos {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+/* Estilo da barra de navegação (nav) */
+nav{
+    margin: auto;
+}
+
+/* Estilo geral para a área principal da página */
+main{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}

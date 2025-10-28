@@ -1,0 +1,75 @@
+/* Área principal da página, organizada com CSS Grid */
+main{
+    display: grid;
+    grid-template-areas: 
+    'article article'
+    'article1 img'  
+    'img1 article2'
+    'aside aside'
+    ;
+    gap: 2rem;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+/* Seção principal inicial do conteúdo */
+.inicio {
+    grid-area: article;
+    display: flex;
+    flex-direction: column;
+    gap: var(--fonte-pequeno);
+    text-align: center;
+    font-size: var(--fonte-pequeno);
+    width: 85%;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Segunda seção de conteúdo */
+.inicio_basico {
+    grid-area: article1;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 800px;
+    font-size: var(--fonte-pequeno);
+    gap: var(--fonte-pequeno);
+    margin: auto var(--fonte-pequeno);
+
+}
+
+/* Listas não ordenadas dentro do conteúdo */
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-left: 1rem;
+
+}
+
+/* Terceira seção de conteúdo */
+.inicio_2 {
+    grid-area: article2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    font-size: var(--fonte-pequeno);
+    gap: var(--fonte-pequeno);
+    padding: var(--fonte);
+    margin-left: auto;
+}
+
+/* Área complementar seção extra */
+.inicio_3 {
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1500px;
+    padding: var(--fonte-pequeno);
+    font-size: var(--fonte-pequeno);
+    gap: var(--fonte-pequeno);
+    margin: 0 auto;
+}
+

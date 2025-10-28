@@ -1,0 +1,78 @@
+export default function home() {
+    return `
+    <article class="inicio">
+    <h1>Sejam Bem-Vindos a ONG Coração Anima!</h1>
+    <p>No Instituto Coração animal, acreditamos que com esforço podemos transformar a vida 
+        de diversos animais. Desde 2024, estamos resgatando, cuidando, e transformando a realidade de 
+        vários animais vitimas de abandono, maus-tratos e situações de risco
+    </p>
+    <p>Junte-se a nós nessa causa! Doe, adote, seja voluntário e faça parte da nossa comunidade do bem.
+        O futuro dos animais depente do nosso compromisso e do seu apoio.
+    </p>
+
+    <!-- Link para a página com os projetos da ONG -->
+    <a href="#/projetos" data-link>nossos projetos!</a>
+</article>
+
+<div class="foto">
+<img src="./imagens/MG_0463.jpg" class="imagem3" alt="erro ao gerar imagem" loading="lazy">
+</div>
+
+<!-- artigo com Missão, Visão e Valores -->
+<article class="inicio_basico">
+
+    <!-- Missão da ONG -->
+    <h3>Missão</h3>
+    <p>
+        Promover o bem-estar, a proteção e o respeito aos animais em situação de vulnerabilidade, por meio de resgates, cuidados veterinários, adoção responsável e ações educativas voltadas à conscientização da sociedade.
+    </p>
+
+    <!-- Visão da ONG -->
+    <h3>Visão</h3>
+    <p>
+        Ser reconhecida como referência na defesa e cuidado dos animais, construindo uma sociedade mais justa, consciente e comprometida com a vida e os direitos de todos os seres vivos.
+    </p>
+    
+    <!-- Lista com os valores da ONG -->
+    <h3>Valores</h3>
+    <ul>
+        <li><strong>Amor e Respeito à Vida: </strong> Cada vida importa. Atuamos com empatia e dedicação a todos os animais</li>
+        <li><strong> Transparência:</strong> Mantemos uma gestão ética, aberta e responsável com nossos apoiadores e parceiros.</li>
+        <li><strong> Responsabilidade Social:</strong> Trabalhamos para transformar a realidade dos animais e das comunidades ao redor.</li>
+        <li><strong> Adoção Consciente:</strong> Incentivamos a adoção com responsabilidade, promovendo lares seguros e afetivos.</li>
+        <li><strong> Educação e Conscientização: </strong> Acreditamos que a mudança começa pelo conhecimento e pela sensibilização.</li>
+        <li><strong> Comprometimento: </strong> Nossos voluntários, parceiros e colaboradores atuam com paixão e responsabilidade.</li>
+        <li><strong> Sustentabilidade: </strong> Buscamos soluções duradouras, éticas e ambientalmente conscientes em nossas ações.</li>
+    </ul>    
+</article>
+
+<!-- artigo sobre a história da ONG -->
+<article class="inicio_2">
+
+    <h3>
+        Nossa História
+    </h3>
+    <p>A <b> Coração Animal </b> nasceu do amor incondicional pelos animais e do desejo de fazer a diferença. Fundada em <b>2024</b>, em Afogados da Ingazeira, por um grupo de voluntários apaixonados pela causa animal, a ONG surgiu como resposta à crescente situação de abandono, maus-tratos e negligência sofrida por centenas de animais em nossa região.</p>
+    <p>
+        O trabalho começou de forma modesta: resgatando animais feridos, promovendo feiras de adoção e realizando campanhas de arrecadação de ração. Com o tempo, a mobilização da comunidade e o apoio de parceiros permitiram ampliar nossa atuação e estrutura. Hoje, a ONG conta com uma rede modesta de voluntários, veterinários parceiros, lares temporários e apoiadores que tornam possível oferecer um melhor acolhimento, tratamento médico, castração e a busca por lares responsáveis para os animais resgatados.
+    </p>
+    <p>
+        Acreditamos que cuidar dos animais é também cuidar da sociedade. Por isso, além do resgate e da adoção, desenvolvemos projetos de educação ambiental e conscientização em escolas, empresas e comunidades
+    </p>
+</article>
+
+ <!-- Imagem do trabalho da ONG -->
+<div class="foto2">
+ <img src="./imagens/1587576363_5ea07e2b8750b_hd.jpeg" class="imagem4" alt="erro ao gerar imagem" loading="lazy">
+</div>
+
+ <!-- Seção complementar sobre a fundação da ONG -->
+<aside class="inicio_3">
+    <h4>O Instituto Coração Animal é uma organização não governamental</h4>
+    <p>Fundado em 2024 por Juliana Ribeiro, o Instituto procura trazer uma melhor qualidade de vida para 
+       os animais da nossa cidade e região. E consientizar a sociedade sobre a importância e do respeito
+       e da compaixão com os animais.
+    </p>
+</aside>
+    `;
+  }

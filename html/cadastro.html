@@ -1,0 +1,151 @@
+<!-- Define o tipo de documento como HTML5 -->
+<!DOCTYPE html>
+
+<!-- Define o idioma da página como português e direção da esquerda para direita -->
+<html lang="pt-br" dir="ltr">
+<head>
+
+     <!-- Meta tag para acessibilidade -->
+    <meta name="accessibility" content="WCAG 2.1 AA compliant">
+
+    <!-- Define o conjunto de caracteres como UTF-8 (suporta acentuação) -->
+    <meta charset="UTF-8">
+
+     <!-- Torna o layout responsivo em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link externo para o CSS -->
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <link rel="stylesheet" href="./css/padrao.css">
+    <link rel="stylesheet" href="./css/imagens.css">
+
+    <!-- Título da aba no navegador -->
+    <title>Cadastro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- Título da aba no navegador -->
+    <Header>
+        <span class="material-symbols-outlined" onclick="clickMenu()"> menu </span>
+
+         <!-- Logo principal do cabeçalho -->
+        <img src="./imagens/WhatsApp-Image-2025-10-08-at-14.25.42.jpeg" class="imagem" alt="erro ao abrir imagem" loading="lazy">  
+        
+        <!-- Menu de navegação -->
+        <nav id="itens">
+            <ul>
+                <li class="dropdown">
+                    <a href="">Menu</a>
+
+                    <div class="drop-menu">
+                        <a href="index.html">Inicio</a>
+                        <a href="projetos.html">Projetos</a>
+                        <a href="cadastro.html">Cadastro</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <img src="./imagens/WhatsApp-Image-2025-10-08-at-14.25.42.jpeg" class="imagem2" alt="erro ao abrir imagem" loading="lazy">
+
+    </header> 
+        <main class="titulos">
+            <!-- Título principal da página -->
+            <h1>Cadastro</h1>
+
+            <!-- Seção de formulário de cadastro -->
+            <section>
+                <h2>Faça seu cadastro!</h2>
+                <form>
+                    <fieldset>
+                        <legend>Informaçoes para cadastro</legend>
+
+                     <!-- Campo nome -->    
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="Nome completo"><br>
+                    
+                     <!-- Campo email -->
+                    <label for="e-mail">e-mail:</label>
+                    <input type="text" id="e-mail" name="e-mail" placeholder="e-mail">
+
+                     <!-- Campo CPF -->
+                    <label for="CPF">CPF:</label>
+                    <input type="text" id="CPF" name="CPF" inputmode="numeric" maxlength="11" pattern="\d{3}\.\d{3}\.\d{3}\-\d{2}" title="digite no formato 000.000.000-00" placeholder="000.000.000-00"><br>
+                   
+                     <!-- Campo telefone -->
+                    <label for="Numero">Telefone:</label>
+                    <input type="text" id="Numero" name="Telefone" inputmode="numeric" maxlength="11" pattern="(\d{2}\) \d{1}\ \d{4}\-\d{4}" title="digite no formato (00) 0 0000-0000" placeholder="(00) 0 0000-0000">
+                    
+                     <!-- Campo data de nascimento -->
+                    <label for="date">Data de nascimento:</label>
+                    <input type="date" id="date" name="data"><br>
+                    
+                     <!-- Campo endereço -->
+                    <label for="endereço">Endereço:</label>
+                    <input type="text" id="endereço" name="endereço" placeholder="endereço">  
+                    
+                     <!-- Campo Cep -->
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep" name="CEP" placeholder="00000-000"><br> 
+                    
+                     <!-- Campo cidade/estado -->
+                    <label for="cidade">Cidade/estado:</label>
+                    <input type="text" id="cidade" name="cidade" placeholder="cidade/xx">
+
+                    <!-- Botão de envio -->
+                    <button>Envie o cadastro</button> 
+                </fieldset>         
+                </form>
+            </section>
+
+                <!-- Seção sobre geração de certificados -->
+                <section style="padding: 2rem;">
+                    <h2>Geração e emissão automatizada de CERTIFICADO</h2>
+                    <ul>
+                        <li>Certificados podem ser gerados automaticamente após confirmação da participação do voluntário na atividade cadastrada no portal de voluntariado.</li>
+                        <li>
+                        Uso de templates personalizáveis em PDF, preenchidos dinamicamente com os dados do voluntário e evento.
+                        </li>
+                        <li>Envio automático por e-mail em formato PDF com link para validação online.</li>
+                    </ul>
+                </section>
+        </main>
+
+        <!--area para configurar o menu hamburguer-->
+        <script>
+            function clickMenu() {
+                const itens = document.getElementById('itens');
+                if (getComputedStyle(itens).display == 'block') {
+                    itens.style.display = 'none';
+                } else {
+                    itens.style.display = 'block';
+                }
+            }
+        </script>
+
+        <!-- Rodapé com informações de contato e links úteis -->
+        <footer>
+
+            <!-- Logo -->
+            <img src="./imagens/Sem-título.png" class="imagem5" alt="erro ao carregar imagem" loading="lazy">
+            
+            <!-- Links para outras páginas -->
+        <div class="rodape">
+            <p>Prestação de Contas Financeiras: <a href="prestação.html">Clique aqui!</a></p>
+            <p>Conheça nossa equipe: <a href="equipe.html">Clique aqui!</a></p>
+            
+            <!-- Contato e redes sociais -->
+            <p> Entre em contato <br>
+                <a href="mailto:contato@coracaoanimal.org.br">contato @coracaoanimal.org.br</a> <br>
+                Nossas Redes Sociais <br>
+                <a href="https://instagram.com/coracaoanimalong" target="_blank">instagram.com/coracaoanimalong</a> <br>
+                <a href="https://facebook.com/coracaoanimalong" target="_blank">facebook.com/Coracaoanimalong</a> <br>
+                <a href="https://youtube.com/coracaoanimalong" target="_blank">youtube.com/coracaoanimalong</a>
+            </p>
+        </div>
+            <!-- Direitos autorais -->
+            <h3 class="direitos"> &COPY; <strong> 2024 ONG Coração Animal - Afogados da Ingazeira/PE </strong> </h3>
+        </footer> 
+</body>
+</html>

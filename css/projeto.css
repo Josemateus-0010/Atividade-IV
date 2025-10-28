@@ -1,0 +1,205 @@
+/* Container principal da seção de projetos */
+.projetos1 {
+    display: grid;
+    grid-template-areas: 
+    'inicio inicio'
+    'projetos2 ft1'
+    'projetos3 ft1'
+    'projetos4 ft2'
+    'projetos5 ft2'
+    'tabela tabela'
+    'projetos6 projetos7'
+    'ajuda ajuda'
+    'conquista grafico'
+    'blog blog'
+    'blog2 blog3'
+    'blog4 blog5'
+    'blog6 blog6'
+    ;
+    gap: var(--fonte);
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+/* Seção inicial da página de projetos */
+.inicio {
+    grid-area: inicio;
+    display: flex;
+    flex-direction: column;
+    gap: var(--espaço);
+    position: relative;
+    text-align: center;
+    font-size: var(--fonte-pequeno);
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Bloco do projeto 2 */
+.projetos2 {
+    grid-area: projetos2;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fonte-pequeno);
+    gap: var(--espaço);
+    position: relative;
+    margin-left: var(--fonte);
+}
+
+/* Bloco do projeto 3 */
+.projetos3 {
+    grid-area: projetos3;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fonte-pequeno);
+    position: relative;
+    margin-left: var(--fonte);
+}
+
+/* Bloco do projeto 4 */
+.projetos4 {
+    grid-area: projetos4;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fonte-pequeno);
+    gap: var(--espaço);
+    position: relative;
+    margin-left: var(--fonte);
+}
+
+/* Bloco do projeto 5 */
+.projetos5 {
+    grid-area: projetos5;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fonte-pequeno);
+    gap: var(--espaço);
+    position: relative;
+    margin-left: var(--fonte);
+}
+
+/* Bloco do projeto 6 */
+.projeto6 {
+    grid-area: projetos6;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fonte-pequeno);
+    gap: var(--espaço);
+    position: relative;
+    margin-left: var(--fonte);
+}
+
+/* Bloco do projeto 7 */
+.projeto7 {
+    grid-area: projetos7;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fonte-pequeno);
+    gap: var(--espaço);
+    position: relative;
+    margin-left: var(--fonte);
+}
+
+/* Seção da tabela de dados ou estatísticas */
+.tabela {
+    grid-area: tabela;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fonte-pequeno);
+    gap: var(--espaço);
+    position: relative;
+    align-items: center;
+}
+
+/* Seção de como ajuda, com texto centralizado */
+.ajuda { 
+    grid-area: ajuda;
+    display: flex;
+    flex-direction: column;
+    gap: var(--espaço);
+    position: relative;
+    text-align: center;
+    font-size: var(--fonte-pequena);
+    width: 90%;
+    margin: var(--fonte);
+}
+
+/* Bloco com informações de conquistas */
+.conquista {
+    grid-area: conquista;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fonte-pequeno);
+    gap: var(--espaço);
+    position: relative;
+    margin-left: var(--fonte);
+}
+
+/* Blog principal */
+.blog {
+    grid-area: blog;
+    display: flex;
+    flex-direction: column;
+    gap: var(--espaço);
+    position: relative;
+    text-align: center;
+    font-size: var(--fonte-pequeno);
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Bloco do post de blog 2 */
+.blog2 {
+    grid-area: blog2;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fonte-pequeno);
+    gap: var(--espaço);
+    position: relative;
+    margin-left: var(--fonte);
+}
+
+/* Bloco do post de blog 3 */
+.blog3 {
+    grid-area: blog3;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fonte-pequeno);
+    gap: var(--espaço);
+    position: relative;
+    margin-left: var(--fonte);
+}
+
+/* Bloco do post de blog 4 */
+.blog4 {
+    grid-area: blog4;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fonte-pequeno);
+    gap: var(--espaço);
+    position: relative;
+    margin-left: var(--fonte);
+}
+
+/* Bloco do post de blog 5 */
+.blog5 {
+    grid-area: blog5;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fonte-pequeno);
+    gap: var(--espaço);
+    position: relative;
+    margin-left: var(--fonte);
+}
+
+/* Último bloco do blog, ocupa linha inteira */
+.blog6 {
+    grid-area: blog6;
+    display: flex;
+    flex-direction: column;
+    gap: var(--espaço);
+    position: relative;
+    text-align: center;
+    font-size: var(--fonte-pequeno);
+    width: 90%;
+    margin: var(--fonte) auto;
+}

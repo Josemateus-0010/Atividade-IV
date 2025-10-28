@@ -1,0 +1,206 @@
+export default function projetos() {
+    return `
+    <section class="pagina">
+
+<article class="inicio">
+
+        <!-- Título principal da página -->
+        <h1>Projetos</h1>
+
+            <h2>Educar para Proteger</h2>
+            <h3>Objetivo geral:</h3>
+            <p>Promover a conscientização sobre a proteção e os direitos dos animais por meio de ações educativas em escolas públicas, comunidades e eventos, contribuindo para a formação de uma sociedade mais empática e responsável.</p>
+        </article>
+
+        <!-- Imagem ilustrativa do projeto -->
+        <img src="./imagens/FOTO-3-MARCOS-VINICIOS-RETRANCA-ESTAGIO-VOLUNTARIO-1024x594-1.jpg" class="ft1" alt="erro ao carregar imagem">
+
+        <!-- Objetivos específicos do projeto -->
+        <article class="projetos2">
+            <h3>Objetivos Específicos:</h3>
+            <ul>
+                <li>Levar conhecimento sobre bem-estar animal a crianças, jovens e educadores.</li>
+                <li>Reduzir casos de maus-tratos e abandono por meio da educação preventiva.</li>
+                <li>Estimular o respeito à vida animal e à convivência ética com os pets e a fauna urbana.</li>
+                <li>Formar multiplicadores da causa animal dentro das escolas e comunidades.</li>
+            </ul>    
+
+            <!-- Outra imagem representativa -->
+        </article>
+        <img src="./imagens/375562427-protecao-animal.webp" class="ft2" alt="erro ao carregar imagem" loading="lazy">
+
+         <!-- Público-alvo do projeto -->
+        <article class="projetos3">
+            <h3>Público-Alvo:</h3>
+            <ul>
+                <li>Alunos do ensino fundamental e médio (redes públicas)</li>
+                <li>Educadores e gestores escolares</li>
+                <li>Moradores de comunidades em situação de vulnerabilidade social</li>
+                <li>Famílias com animais de estimação</li>
+            </ul>
+        </article>
+
+        <!-- Duração e cronograma do projeto -->
+        <article class="projetos4">
+            <h3>Duração do Projeto:</h3>
+            <ul>
+                <li><strong>Início: </strong>: Março de 2025</li>
+                <li><strong>Término Previsto:</strong> Fevereiro de 2026</li>
+                <li><strong>Periodicidade:</strong> Ações mensais, com visitas escolares quinzenais</li>
+            </ul>
+        </article>
+
+        <!-- Locais onde o projeto será realizado -->
+        <article class="projetos5">
+            <h3>Local de Execução:</h3>
+            <ul>
+                <li>Escolas municipais e estaduais de Afogados da Ingazeira/PE</li>
+                <li>Espaços comunitários e centros culturais parceiros</li>
+                <li>Feiras e eventos públicos de proteção animal</li>
+            </ul>
+        </article>
+
+         <!-- Tabela com as principais atividades do projeto -->
+        <div class="tabela">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th><strong>Atividade</strong></th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Palestras educativas</td>
+                        <td>Aulas interativas com temas como maus-tratos, adoção, castração e posse responsável.</td>
+                    </tr>
+                    <tr>
+                        <td>Oficinas lúdicas para crianças</td>
+                        <td>Contação de histórias, desenhos, jogos e atividades práticas sobre o cuidado com animais.</td>
+                    </tr>
+                    <tr>
+                        <td>Formação para educadores</td>
+                        <td>Encontros com professores para integrar o tema animal no currículo escolar.</td>
+                    </tr>
+                    <tr>
+                        <td>Produção e distribuição de materiais</td>
+                        <td>Cartilhas, folders, vídeos e conteúdos digitais educativos.</td>
+                    </tr>
+                    <tr>
+                        <td>Campanhas comunitárias</td>
+                        <td>Mutirões de conscientização em bairros com altos índices de abandono.</td>
+                    </tr>
+                    <tr>
+                        <td>Avaliação de impacto</td>
+                        <td>Aplicação de questionários e relatórios de engajamento e aprendizado.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+         <!-- Equipe responsável pelo projeto -->
+        <section class="projeto6">
+            <h3>Equipe responsável:</h3>
+            <ul>
+                <li><strong>Coordenadora do Projeto:</strong> Suelen Castro</li>
+                <li><strong>Educadora Social:</strong> Joana leite</li>
+                <li><strong>Arte-educadora:</strong> Marina Duarte</li>
+                <li><strong>Apoio Logístico:</strong> João Pedro Martins</li>
+                <li><strong>voluntário:</strong> Equipe rotativa com 10 voluntário capacitados</li>
+            </ul>
+        </section>
+
+         <!-- Indicadores de resultado e impacto -->
+        <section class="projeto7">
+            <h3>Indicadores de impacto:</h3>
+            <ul>
+                <li>Número de escolas atendidas 7</li>
+                <li>Número de alunos impactados 1.750</li>
+                <li>Número de materiais distribuídos 2.000</li>
+                <li>Redução de casos de abandono em bairros atendidos (por meio de parceiros locais) 300</li>
+                <li>Aumento da procura por adoção e castração em áreas alcançadas 400</li>
+            </ul>
+        </section>
+
+        <!-- Parcerias e apoios -->
+        <div class="ajuda">
+            <p>•Secretaria Municipal de Educação
+                •Secretaria de Meio Ambiente•	Clínica PetVida (apoio logístico e informativo)
+                •	Gráfica Criativa (impressão solidária de materiais)
+                
+                </p>
+        </div>   
+
+         <!-- Imagem com legenda explicativa -->
+        <figure class="grafico">
+            <img src="./imagens/image-removebg-preview.png" class="ft3" alt="erro ao carregar imagem" loading="lazy">
+            <figcaption>cor azul instagram | cor laranja facebook <br>Alcance/ resuldados
+            </figcaption>
+        </figure>
+
+         <!-- Seção de conquistas da ONG -->
+        <section class="conquista">
+            <h2>Nossas Conquistas</h2>
+            <ul>
+                <li><strong>Mais de 1.300, Animais resgatados</strong> desde a fundação, entre cães, gatos e animais silvestres.</li>
+                <li><strong>900 doações responsáveis realizadas,</strong> com acompanhamento pós-doação.</li>
+                <li><strong>Parcerias com 8 clínicas veterinárias </strong>e 2 pet shops locais.</li>
+                <li><strong>Criação do Projeto “Educar para Proteger”, </strong>levando palestras sobre bem-estar animal para escolas públicas.</li>
+                <li><strong>Campanhas de castração comunitária,</strong>, com mais de 400 animais beneficiados.</li>
+                <li><strong>Reconhecimento pela Câmara Municipal </strong>com moção de aplauso pela atuação social.</li>
+                <li><strong>Cadastro ativo no Conselho Municipal de Proteção Animal.</strong></li>
+                <li><strong>Participação anual na Campanha Nacional de Adoção e Combate ao Abandono.</strong></li>
+                <li><strong>Presença ativa nas redes sociais, </strong>com mais de 25 mil seguidores e campanhas de arrecadação 100% transparentes.</li>
+                <li><strong>Transparência e credibilidade </strong>reconhecidas por apoiadores, com prestação de contas pública e auditorias voluntárias.</li>
+            </ul>
+        </section>
+
+        <article class="blog">
+
+        <!-- Blog com atualizações da ONG -->
+        <h2>Blog Coração Animal</h2>
+
+            <h3>Ultimas Atualizações</h3>
+
+             <!-- Atualização 1 -->
+            <h4>Lançamento do Projeto “Educar para Proteger”</h4>
+            <p>Publicado em 01/03/2025</p>
+            <p>Com muita alegria, a ONG Coração Animal iniciou o projeto “Educar para Proteger”, que visa levar conscientização sobre os direitos e cuidados com os animais a escolas públicas de nossa cidade. O projeto contará com palestras, oficinas e materiais educativos para alunos e educadores. A ação tem como objetivo formar multiplicadores da causa animal e reduzir casos de maus-tratos e abandono.</p>
+        </article>
+
+         <!-- Atualização 2 -->
+        <article class="blog2">
+            <h4>Feira de Adoção bate recorde com 89 animais adotados</h4>
+            <p>Publicado em 15/05/2025</p>
+            <p>Nossa última feira de adoção foi um sucesso! Com a ajuda de voluntários dedicados e parceiros como a Clínica PetVida, conseguimos encaminhar 89 animais para lares amorosos. Agradecemos a todos que participaram e incentivamos quem deseja adotar a acompanhar nossos próximos eventos.</p>
+        </article>
+
+         <!-- Atualização 3 -->
+        <article class="blog3">
+            <h4>Campanha “Natal Solidário” arrecada mais de R$ 8 mil</h4>
+            <p>Publicado em 10/12/2024</p>
+            <p>Encerramos a campanha de final de ano com a incrível arrecadação de mais de vinte mil reais, que serão destinados para castrações, atendimento veterinário e compra de ração para nossos acolhidos. Agradecemos profundamente o apoio de nossos doadores e parceiros. Confira o relatório de transparência com a prestação de contas completa em nossa central de documentos públicos.</p>
+        </article>
+
+         <!-- Atualização 4 -->
+        <article class="blog4">
+            <h4>Voluntariado em alta: 35 voluntários ativos dedicam mais de 1.100 horas</h4>
+            <p>Publicado em 20/06/2025</p>
+            <p>Nosso time de voluntários cresce a cada mês! São 35 pessoas engajadas que já somam mais de 1.100 horas dedicadas a ações como resgates, eventos, cuidados e educação. O Portal de Oportunidades de Voluntariado está aberto para novas inscrições – junte-se a nós e faça a diferença!</p>
+        </article>
+
+         <!-- Atualização 5 -->
+        <article class="blog5">
+            <h4>Transparência e Confiança: relatórios e prestação de contas atualizados</h4>
+            <p>Publicado em 01/07/2025</p>
+            <p>Transparência é um valor fundamental para a ONG Coração Animal. Publicamos regularmente relatórios detalhados sobre a aplicação dos recursos, atividades realizadas e impacto social. Você pode conferir os documentos atualizados em nossa Central de Documentos Públicos, garantindo total confiança no nosso trabalho.</p>
+        </article>
+
+         <!-- Informações para doações -->
+        <div class="blog6">
+            <p>Doe pela nossa chave pix:xxx.xxx.xxx-xx</p>
+            <p>ou entregue na nossa instituição localizada em Afogados da ingazeira. bairro:xxxxxxxxxxxxxxx</p>
+        </div>
+    </section>
+`;
+}
